@@ -46,3 +46,153 @@
 2017-11-23T22:57:59,830 * DEBUG ClientManager - Deleting client
 2017-11-23T22:58:06,316 * DEBUG ClientManager - Getting client list
 2017-11-23T22:58:08,003 * DEBUG ClientManager - Finished Getting client list
+2017-11-23T23:33:09,565 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-23T23:33:11,435 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-23T23:33:11,436 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-23T23:33:11,757 * DEBUG br.com.proto.managers.ClientManager - Finished Getting client list
+2017-11-23T23:37:17,407 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-23T23:37:19,199 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-23T23:37:19,200 * DEBUG br.com.proto.managers.ClientManager - Reading Client
+2017-11-23T23:37:19,300 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-23T23:37:19,631 * DEBUG br.com.proto.managers.ClientManager - Finished Getting client list
+2017-11-23T23:37:37,022 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-23T23:37:38,852 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-23T23:37:38,852 * DEBUG br.com.proto.managers.ClientManager - Reading Client
+2017-11-23T23:48:47,597 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-23T23:48:47,620 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-23T23:48:49,549 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-23T23:49:18,197 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-23T23:49:18,202 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-23T23:49:20,158 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-23T23:49:20,159 * DEBUG br.com.proto.managers.ClientManager - Deleting Client
+2017-11-23T23:49:20,391 * DEBUG br.com.proto.managers.ClientManager - Finished deleting Client
+2017-11-23T23:49:20,391 * DEBUG br.com.proto.managers.ClientManager - Deleting Client
+2017-11-23T23:49:20,491 * DEBUG br.com.proto.managers.ClientManager - Finished deleting Client
+2017-11-23T23:49:20,491 * DEBUG br.com.proto.managers.ClientManager - Deleting Client
+2017-11-23T23:49:20,580 * DEBUG br.com.proto.managers.ClientManager - Finished deleting Client
+2017-11-23T23:49:31,352 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-23T23:49:31,387 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-23T23:49:33,357 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:02:47,363 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:02:47,368 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-24T00:02:49,030 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:03:00,122 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-24T00:03:01,681 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-24T00:03:01,681 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:03:01,681 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-24T00:03:01,923 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:03:43,945 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-24T00:03:45,534 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-24T00:03:45,534 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:03:45,534 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-24T00:03:45,772 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:03:45,773 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:03:45,917 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:03:45,917 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:03:46,008 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:22,419 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-24T00:04:23,969 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-24T00:04:23,970 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:04:23,970 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-24T00:04:24,189 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:04:24,190 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:24,289 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:24,289 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:24,370 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:24,370 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:24,449 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:57,574 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-24T00:04:59,150 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-24T00:04:59,150 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:04:59,151 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-24T00:04:59,376 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:04:59,376 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:59,475 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:59,476 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:59,564 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:59,565 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:59,652 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:04:59,652 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:04:59,733 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:05:10,082 * DEBUG br.com.proto.managers.ClientManager - Saving Client
+2017-11-24T00:05:11,597 * DEBUG br.com.proto.managers.ClientManager - Finished saving Client
+2017-11-24T00:05:11,597 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:05:11,597 * DEBUG br.com.proto.managers.ClientManager - Getting Client list
+2017-11-24T00:05:11,831 * DEBUG br.com.proto.managers.ClientManager - Finished getting Client list
+2017-11-24T00:05:11,832 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:05:11,974 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:05:11,974 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:05:12,062 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:05:12,062 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:05:12,141 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:05:12,141 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:05:12,220 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:05:12,221 * DEBUG br.com.proto.managers.ClientManager - Updating Client
+2017-11-24T00:05:12,307 * DEBUG br.com.proto.managers.ClientManager - Finished updating Client
+2017-11-24T00:33:38,104 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-24T00:33:39,714 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-24T00:33:39,715 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:33:39,715 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-24T00:33:39,965 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-24T00:33:39,965 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:33:40,070 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:33:40,071 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:33:40,159 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:33:40,159 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:33:40,239 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:33:40,239 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:33:40,328 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:33:40,328 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:33:40,425 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:33:40,425 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:33:40,496 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:40,445 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-24T00:34:41,994 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-24T00:34:41,994 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:34:41,994 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-24T00:34:42,230 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-24T00:34:42,230 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,322 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:42,322 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,412 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:42,413 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,493 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:42,494 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,581 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:42,581 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,654 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:42,654 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,733 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:34:42,733 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:34:42,814 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:29,422 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-24T00:35:31,002 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-24T00:35:31,002 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:35:31,002 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-24T00:35:31,237 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-24T00:35:31,238 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,335 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,336 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,416 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,416 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,505 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,505 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,593 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,593 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,665 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,666 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,761 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,762 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,830 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:31,830 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Client
+2017-11-24T00:35:31,894 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Client
+2017-11-24T00:35:53,611 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-24T00:35:55,165 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-24T00:35:55,165 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:35:55,166 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-24T00:35:55,403 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-24T00:36:08,948 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-24T00:36:10,474 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-24T00:36:10,474 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-24T00:36:10,474 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-24T00:36:10,725 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
