@@ -1,0 +1,48 @@
+2017-11-23T21:48:11,511 * DEBUG WebServer - Starting webserver
+2017-11-23T21:48:11,777 * ERROR WebServer - javax.servlet.ServletException: org.glassfish.jersey.servlet.ServletContainer-4c60d6e9@c6b8f9fd==org.glassfish.jersey.servlet.ServletContainer,jsp=null,order=1,inst=false
+2017-11-23T21:50:34,585 * DEBUG WebServer - Starting webserver
+2017-11-23T21:52:12,234 * DEBUG WebServer - Starting webserver
+2017-11-23T21:52:34,156 * DEBUG WebServer - Starting webserver
+2017-11-23T21:53:44,101 * DEBUG WebServer - Starting webserver
+2017-11-23T21:54:44,478 * DEBUG WebServer - Starting webserver
+2017-11-23T22:29:45,174 * DEBUG ClientManager - Saving client
+2017-11-23T22:30:16,142 * DEBUG ClientManager - Saving client
+2017-11-23T22:31:11,733 * DEBUG ClientManager - Saving client
+2017-11-23T22:31:18,820 * ERROR ClientManager - org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-11-23T22:32:51,334 * DEBUG ClientManager - Saving client
+2017-11-23T22:32:53,989 * ERROR ClientManager - org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-11-23T22:33:46,958 * DEBUG ClientManager - Saving client
+2017-11-23T22:33:49,437 * DEBUG ClientManager - Finished saving client
+2017-11-23T22:35:45,449 * DEBUG ClientManager - Saving client
+2017-11-23T22:35:47,148 * DEBUG ClientManager - Finished saving client
+2017-11-23T22:40:02,047 * DEBUG ClientManager - Saving client
+2017-11-23T22:40:03,697 * DEBUG ClientManager - Finished saving client
+2017-11-23T22:40:03,697 * DEBUG ClientManager - Reading Client
+2017-11-23T22:40:03,850 * DEBUG ClientManager - Finished Reading Client
+2017-11-23T22:40:58,454 * DEBUG ClientManager - Saving client
+2017-11-23T22:41:00,052 * DEBUG ClientManager - Finished saving client
+2017-11-23T22:41:00,052 * DEBUG ClientManager - Reading Client
+2017-11-23T22:41:00,137 * DEBUG ClientManager - Finished Reading Client
+2017-11-23T22:41:40,114 * DEBUG ClientManager - Saving client
+2017-11-23T22:41:41,710 * DEBUG ClientManager - Finished saving client
+2017-11-23T22:41:41,711 * DEBUG ClientManager - Reading Client
+2017-11-23T22:41:41,802 * DEBUG ClientManager - Finished Reading Client
+2017-11-23T22:49:09,703 * DEBUG ClientManager - Saving client
+2017-11-23T22:49:11,312 * DEBUG ClientManager - Finished saving client
+2017-11-23T22:49:11,313 * DEBUG ClientManager - Reading Client
+2017-11-23T22:49:11,401 * DEBUG ClientManager - Finished Reading Client
+2017-11-23T22:49:17,491 * DEBUG ClientManager - Reading Client
+2017-11-23T22:49:17,964 * DEBUG ClientManager - Finished Reading Client
+2017-11-23T22:49:20,932 * DEBUG ClientManager - Deleting client
+2017-11-23T22:57:32,567 * DEBUG ClientManager - Getting client list
+2017-11-23T22:57:34,318 * DEBUG ClientManager - Finished Getting client list
+2017-11-23T22:57:57,636 * DEBUG ClientManager - Getting client list
+2017-11-23T22:57:59,348 * DEBUG ClientManager - Finished Getting client list
+2017-11-23T22:57:59,349 * DEBUG ClientManager - Deleting client
+2017-11-23T22:57:59,477 * DEBUG ClientManager - Deleting client
+2017-11-23T22:57:59,586 * DEBUG ClientManager - Deleting client
+2017-11-23T22:57:59,666 * DEBUG ClientManager - Deleting client
+2017-11-23T22:57:59,742 * DEBUG ClientManager - Deleting client
+2017-11-23T22:57:59,830 * DEBUG ClientManager - Deleting client
+2017-11-23T22:58:06,316 * DEBUG ClientManager - Getting client list
+2017-11-23T22:58:08,003 * DEBUG ClientManager - Finished Getting client list
