@@ -62,8 +62,8 @@ public class PersistanceAdapter {
         return null;
     }
 
-
-    public boolean update(Object object) {
+    @SuppressWarnings("unchecked")
+    public <T> T update(Object object) {
         if (object == null) {
             throw new IllegalArgumentException("Invalid object");
         }
@@ -75,12 +75,12 @@ public class PersistanceAdapter {
             session.saveOrUpdate(object);
             tr.commit();
             sessionFactory.close();
+            LOGGER.debug("Finished updating " + object.getClass().getSimpleName());
+            return (T) object;
         } catch (HibernateException e) {
             LOGGER.error(e);
-            return false;
+            return null;
         }
-        LOGGER.debug("Finished updating " + object.getClass().getSimpleName());
-        return true;
 
     }
 

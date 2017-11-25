@@ -25,6 +25,7 @@ public class WebServer {
 
         ServletHolder servletHolder = new ServletHolder(new ServletContainer());
         servletHolder.setInitParameter(ServerProperties.PROVIDER_PACKAGES, "br.com.proto.handlers");
+        servletHolder.setInitParameter("com.sun.jersey.api.json.POJOMappingFeature","true");
         servletHolder.setInitOrder(1);
         context.addServlet(servletHolder, "/*");
         server.setDumpAfterStart(true);

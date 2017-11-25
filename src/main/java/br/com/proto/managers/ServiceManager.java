@@ -14,7 +14,7 @@ public class ServiceManager {
     PersistanceAdapter persistance = new PersistanceAdapter();
 
     @SuppressWarnings("unchecked")
-    public <T> T create(String name, final String description, final double value) {
+    public Service create(String name, final String description, final double value) {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Invalid name");
         }
@@ -36,25 +36,37 @@ public class ServiceManager {
         if (!saved) {
             throw new IllegalStateException("Unable to save service");
         }
-        return (T) service;
+        return service;
+    }
+
+    public Service create(final Service service) {
+        if (service == null) {
+            throw new IllegalArgumentException("Invalid service");
+        }
+
+        boolean saved = persistance.save(service);
+        if (!saved) {
+            throw new IllegalStateException("Unable to save service");
+        }
+        return service;
 
     }
 
-    public <T> T read(String id) {
+    public Service read(String id) {
         if (id == null || id.isEmpty()) {
             throw new IllegalArgumentException("Invalid id");
         }
         return persistance.read(id, Service.class);
     }
 
-    public <T> List<T> getList() {
+    public List<Service> getList() {
         LOGGER.debug("Getting service list");
         return persistance.getList(Service.class);
     }
 
     public boolean delete(Object object) {
         if (object == null) {
-            throw new IllegalArgumentException("Invalid service");
+            return false;
         }
         return persistance.delete(object);
     }
@@ -67,10 +79,15 @@ public class ServiceManager {
         return delete(service);
     }
 
-    public boolean update(Object object) {
-        if (object == null) {
+    public Service update(Service service) {
+        if (service == null) {
             throw new IllegalArgumentException("Invalid service");
         }
-        return persistance.update(object);
+        Service loaded = read(service.getId());
+        if (loaded != null) {
+            return persistance.update(service);
+        } else {
+            return null;
+        }
     }
 }

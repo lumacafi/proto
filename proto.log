@@ -227,3 +227,90 @@
 2017-11-24T21:45:44,046 * DEBUG br.com.proto.managers.ContractManager - Finished calculating contract discount value
 2017-11-24T21:45:44,046 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Contract
 2017-11-24T21:45:44,183 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Contract
+2017-11-25T11:27:19,436 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T11:27:36,184 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T11:27:36,185 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T11:27:38,756 * ERROR br.com.proto.persistance.PersistanceAdapter - org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-11-25T11:32:40,986 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T11:32:47,882 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T11:32:47,882 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T11:32:50,681 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T11:33:23,509 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T11:33:30,388 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T11:33:30,389 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T11:33:32,262 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T11:35:44,433 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T11:35:53,096 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T11:35:53,096 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T11:35:54,846 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T12:03:39,036 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T12:03:44,853 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T12:03:44,853 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T12:03:46,532 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T12:03:52,245 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:03:52,245 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:03:52,400 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T12:04:07,669 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:04:07,812 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:04:33,997 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:04:34,089 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:05:52,436 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Service
+2017-11-25T12:05:52,655 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Service
+2017-11-25T12:06:26,869 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Service
+2017-11-25T12:07:53,227 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:07:53,307 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:07:56,641 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:07:56,714 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:08:15,765 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:08:23,461 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:09:38,394 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:09:38,395 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:09:38,480 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T12:09:45,001 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:09:45,080 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:10:26,458 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T12:10:34,351 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:10:34,352 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:10:36,057 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T12:10:50,105 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:10:50,233 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:11:15,100 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:11:15,100 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:11:15,205 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T12:11:38,430 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:11:38,513 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:11:38,513 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Service
+2017-11-25T12:11:38,632 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Service
+2017-11-25T12:11:45,189 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:11:45,273 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:11:45,274 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Service
+2017-11-25T12:11:45,406 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Service
+2017-11-25T12:11:54,886 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:11:54,958 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:11:54,959 * DEBUG br.com.proto.persistance.PersistanceAdapter - Updating Service
+2017-11-25T12:11:55,083 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished updating Service
+2017-11-25T12:12:10,870 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:12:10,870 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:12:10,950 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T12:12:48,565 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:12:48,631 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:14:12,645 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:14:12,646 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:14:12,712 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T12:14:40,100 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T12:16:46,381 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:16:47,884 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:17:13,946 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T12:17:54,240 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T12:18:01,240 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:18:02,824 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:18:51,247 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T12:18:59,664 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:19:01,182 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:19:43,441 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-25T12:19:43,559 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-25T12:19:43,560 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Service
+2017-11-25T12:19:43,733 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Service
+2017-11-25T12:19:48,869 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T12:19:48,869 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T12:19:49,107 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
