@@ -25,6 +25,8 @@
 
 
         <mapping class="br.com.proto.entities.Client"/>
+        <mapping class="br.com.proto.entities.Service"/>
+        <mapping class="br.com.proto.entities.Contract"/>
 
     </session-factory>
 </hibernate-configuration>

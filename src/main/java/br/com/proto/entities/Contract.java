@@ -3,10 +3,7 @@ package br.com.proto.entities;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Contract {
@@ -17,13 +14,17 @@ public class Contract {
     @Column(name = "id", unique = true, nullable = false)
     private String id;
 
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Client client;
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Service service;
 
     private String startDate;
     private String endDate;
 
-    private long value;
+    private double value;
 
     public String getId() {
         return id;
@@ -61,11 +62,11 @@ public class Contract {
         this.endDate = endDate;
     }
 
-    public long getValue() {
+    public double getValue() {
         return value;
     }
 
-    public void setValue(long value) {
+    public void setValue(double value) {
         this.value = value;
     }
 }

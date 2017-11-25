@@ -22,6 +22,7 @@ public class Service {
     private String name;
     private String description;
 
+    private double value;
 
     public String getId() {
         return id;
@@ -41,5 +42,13 @@ public class Service {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public double getValue() {
+        return value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
     }
 }

@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 
-public class ClientManager implements IManager {
+public class ClientManager {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -16,19 +16,18 @@ public class ClientManager implements IManager {
 
 
     @SuppressWarnings("unchecked")
-    @Override
-    public <T> T create(String name, Object object) {
+    public <T> T create(String name, ClientType type) {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Invalid name");
         }
 
-        if (object == null) {
+        if (type == null) {
             throw new IllegalArgumentException("Invalid type");
         }
 
         Client client = new Client();
         client.setName(name);
-        client.setType((ClientType) object);
+        client.setType(type);
 
         boolean saved = persistance.save(client);
         if (!saved) {
@@ -37,7 +36,6 @@ public class ClientManager implements IManager {
         return (T) client;
     }
 
-    @Override
     public <T> T read(String id) {
         if (id == null || id.isEmpty()) {
             throw new IllegalArgumentException("Invalid id");
@@ -45,13 +43,11 @@ public class ClientManager implements IManager {
         return persistance.read(id, Client.class);
     }
 
-    @Override
     public <T> List<T> getList() {
         LOGGER.debug("Getting client list");
         return persistance.getList(Client.class);
     }
 
-    @Override
     public boolean delete(Object object) {
         if (object == null) {
             throw new IllegalArgumentException("Invalid client");
@@ -59,7 +55,6 @@ public class ClientManager implements IManager {
         return persistance.delete(object);
     }
 
-    @Override
     public boolean delete(String id) {
         if (id == null || id.isEmpty()) {
             throw new IllegalArgumentException("Invalid id");
@@ -68,7 +63,6 @@ public class ClientManager implements IManager {
         return delete(client);
     }
 
-    @Override
     public boolean update(Object object) {
         if (object == null) {
             throw new IllegalArgumentException("Invalid client");
