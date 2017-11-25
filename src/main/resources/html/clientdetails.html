@@ -1,0 +1,46 @@
+<html>
+<body>
+<h2>Detalhes do cliente</h2>
+
+<p>Cliente: </p>
+<div class="table1"></div>
+
+<p><a href="contractreg.html">Contratar serviço</a></p>
+
+<p>Contratos</p>
+<div class="table2"></div>
+<p><a href="/index.html">Home</a></p>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return decodeURI(results[1]) || 0;
+    }
+};
+
+$.getJSON("http://localhost:8080/api/clients/"+$.urlParam('clid')).then(function(data)
+{
+    $(".table1").append(data.name+"<br>");
+});
+
+
+$.getJSON("http://localhost:8080/api/contract?clid="+$.urlParam('clid')).then(function(data)
+{
+    for (var i = 0; i < data.length; i++) {
+        $(".table2").append(data[i].id+"<br>");
+    }
+});
+
+
+
+</script>
+
+</body>
+</html>

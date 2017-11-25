@@ -15,8 +15,7 @@ public class ClientManager {
     PersistanceAdapter persistance = new PersistanceAdapter();
 
 
-    @SuppressWarnings("unchecked")
-    public <T> T create(String name, ClientType type) {
+    public Client create(String name, ClientType type) {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Invalid name");
         }
@@ -33,17 +32,30 @@ public class ClientManager {
         if (!saved) {
             throw new IllegalStateException("Unable to save client");
         }
-        return (T) client;
+        return client;
     }
 
-    public <T> T read(String id) {
+    public Client create(final Client client) {
+        if (client == null) {
+            throw new IllegalArgumentException("Invalid service");
+        }
+
+        boolean saved = persistance.save(client);
+        if (!saved) {
+            throw new IllegalStateException("Unable to save service");
+        }
+        return client;
+    }
+
+
+    public Client read(String id) {
         if (id == null || id.isEmpty()) {
             throw new IllegalArgumentException("Invalid id");
         }
         return persistance.read(id, Client.class);
     }
 
-    public <T> List<T> getList() {
+    public List<Client> getList() {
         LOGGER.debug("Getting client list");
         return persistance.getList(Client.class);
     }
@@ -63,10 +75,16 @@ public class ClientManager {
         return delete(client);
     }
 
-    public boolean update(Object object) {
-        if (object == null) {
+    public Client update(Client client) {
+        if (client == null) {
             throw new IllegalArgumentException("Invalid client");
         }
-        return persistance.update(object);
+
+        Client loaded = read(client.getId());
+        if (loaded != null) {
+            return persistance.update(client);
+        } else {
+            return null;
+        }
     }
 }

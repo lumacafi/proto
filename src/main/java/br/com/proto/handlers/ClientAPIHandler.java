@@ -1,22 +1,22 @@
 package br.com.proto.handlers;
 
-import br.com.proto.entities.Service;
-import br.com.proto.managers.ServiceManager;
+import br.com.proto.entities.Client;
+import br.com.proto.managers.ClientManager;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
-@Path("services")
-public class ServiceAPIHandler {
+@Path("clients")
+public class ClientAPIHandler {
 
-    ServiceManager serviceManager = new ServiceManager();
+    ClientManager clientManager = new ClientManager();
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Service> doGet() {
-        return serviceManager.getList();
+    public List<Client> doGet() {
+        return clientManager.getList();
     }
 
 
@@ -26,11 +26,10 @@ public class ServiceAPIHandler {
 
         StringBuilder html = new StringBuilder();
         html.append("<html>");
-        for (Service service : serviceManager.getList()) {
-            html.append(service.getName());
+        for (Client client : clientManager.getList()) {
+            html.append(client.getName());
             html.append("<br>");
         }
-
         html.append("</html>");
         return html.toString();
     }
@@ -38,32 +37,31 @@ public class ServiceAPIHandler {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{id}")
-    public Service getById(@PathParam("id") final String id) {
-
-        return serviceManager.read(id);
+    public Client getById(@PathParam("id") final String id) {
+        return clientManager.read(id);
     }
 
 
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Service addService(final Service service) {
-        return serviceManager.create(service);
+    public Client addClient(final Client client) {
+        return clientManager.create(client);
     }
 
     @PUT
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Service updateService(final Service service) {
-        return serviceManager.update(service);
+    public Client updateClient(final Client client) {
+        return clientManager.update(client);
     }
 
 
     @DELETE
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{id}")
-    public Response deleteService(@PathParam("id") final String id) {
-        boolean deleted = serviceManager.delete(id);
+    public Response deleteClient(@PathParam("id") final String id) {
+        boolean deleted = clientManager.delete(id);
         final String json = "{\"deleted\":" + deleted + " }";
         return Response.ok(json).build();
     }

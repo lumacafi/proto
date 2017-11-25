@@ -1,15 +1,34 @@
 package br.com.proto.handlers;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import br.com.proto.entities.Contract;
+import br.com.proto.managers.ContractManager;
+
+import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
+import java.util.List;
 
 @Path("contract")
 public class ContractHandler {
 
 
+    private ContractManager contractManager = new ContractManager();
+
     @GET
-    public Response doGet() {
-        return Response.ok(123).build();
+    public List<Contract> doGet(@QueryParam("clid") final String clientId) {
+        if (clientId != null) {
+            List<Contract> list = contractManager.getListByClientId(clientId);
+            for (Contract contract : list) {
+                System.out.println(contract.getId());
+            }
+            return list;
+        } else {
+            return null;
+        }
+    }
+
+
+    @POST
+    public Response doAdd(@FormParam("clid") final String clientId) {
+        return null;
     }
 }

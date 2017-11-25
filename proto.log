@@ -314,3 +314,308 @@
 2017-11-25T12:19:48,869 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
 2017-11-25T12:19:48,869 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
 2017-11-25T12:19:49,107 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T14:08:55,722 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:09:21,294 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T14:09:21,294 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T14:09:22,886 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T14:12:02,643 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:12:11,424 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T14:12:11,424 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T14:12:13,274 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T14:20:50,930 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:22:41,329 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:26:37,913 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:26:53,045 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-25T14:26:53,046 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-25T14:26:54,724 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-25T14:28:51,460 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:29:03,212 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:30:49,513 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:31:37,518 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:31:38,023 * ERROR br.com.proto.WebServer - java.lang.IllegalStateException: Multiple servlets map to path /*: static-home[mapped:EMBEDDED:null],org.glassfish.jersey.servlet.ServletContainer-4f74980d[mapped:EMBEDDED:null]
+2017-11-25T14:32:02,528 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:50:42,894 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:51:12,437 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:51:35,374 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:55:59,329 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:57:02,996 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:57:18,299 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-25T14:57:19,871 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-25T14:57:41,952 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T14:57:52,594 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-25T14:57:54,163 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-25T14:59:34,392 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:00:58,704 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:01:05,312 * ERROR br.com.proto.handlers.ClientRegisterHandler - java.lang.IllegalArgumentException: Invalid name
+2017-11-25T15:01:14,946 * ERROR br.com.proto.handlers.ClientRegisterHandler - java.lang.IllegalArgumentException: Invalid name
+2017-11-25T15:01:20,124 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-25T15:01:21,720 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-25T15:06:04,138 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:06:04,139 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:06:04,381 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:06:26,286 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:06:26,286 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:06:26,394 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:06:27,744 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:06:27,744 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:06:27,832 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:06:55,807 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:06:55,807 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:06:55,915 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:11:05,881 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:11:05,881 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:11:05,977 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:26:25,614 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:26:25,615 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:26:25,711 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:26:55,673 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:27:03,805 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:27:03,806 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:27:05,464 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:27:08,992 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:27:08,993 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:27:09,113 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:29:53,093 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:29:53,094 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:29:53,208 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:29:57,999 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:29:57,999 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:29:58,109 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:32:09,545 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:32:16,858 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:32:16,858 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:32:18,480 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:34:53,425 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:35:02,257 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:35:02,258 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:35:03,888 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:35:42,298 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:35:49,422 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:35:49,423 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:35:51,060 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:36:41,769 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:36:48,723 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:36:48,724 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:36:50,374 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:37:03,539 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:37:03,539 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:37:03,657 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:37:30,744 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:37:36,089 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:37:36,089 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:37:37,871 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:37:49,694 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:37:49,695 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:37:49,820 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:39:20,349 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:39:33,086 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:39:33,086 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:39:34,733 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:40:40,362 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:41:46,570 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:41:50,914 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:41:50,914 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:41:52,554 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:42:08,822 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:42:08,822 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:42:08,934 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:42:59,132 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:43:05,388 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:43:05,389 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:43:07,083 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:43:32,212 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:43:32,213 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:43:32,338 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:45:01,941 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:45:06,717 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:45:06,718 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:45:08,408 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:45:15,218 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:45:15,218 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:45:15,338 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:46:06,315 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:46:11,171 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:46:11,171 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:46:12,817 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:51:03,072 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:51:07,159 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:51:07,160 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:51:08,786 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:51:14,651 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:51:14,651 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:51:14,771 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:51:16,913 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:51:16,913 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:51:17,014 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:51:28,117 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:51:28,117 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:51:28,224 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:51:33,988 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:51:33,989 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:51:34,082 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:52:18,610 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:52:25,337 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:52:25,337 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:52:27,016 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:52:47,282 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:52:54,743 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:52:54,744 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:52:56,442 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:53:20,267 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:53:28,168 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:53:28,169 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:53:29,812 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:53:57,447 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-25T15:53:57,587 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-25T15:53:58,955 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:53:58,956 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:53:59,128 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:55:21,221 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:55:34,034 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:55:34,035 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:55:35,664 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:55:40,646 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:55:40,646 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:55:40,788 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:55:48,042 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:55:48,042 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:55:48,146 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:55:59,031 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:55:59,031 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:55:59,145 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:56:02,319 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:56:02,320 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:56:02,410 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:56:13,791 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:56:13,791 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:56:13,882 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:56:36,383 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T15:56:42,167 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T15:56:42,167 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T15:56:43,805 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T15:58:44,649 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T16:03:40,429 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T16:03:46,660 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T16:03:46,661 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T16:03:48,423 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T16:33:56,790 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T16:34:03,825 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T16:34:03,826 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T16:34:05,551 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T16:34:10,374 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T16:34:10,375 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T16:34:10,485 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T16:53:34,272 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T16:54:18,354 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T16:54:25,449 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T16:54:25,450 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T16:54:27,066 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T16:55:01,709 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T16:55:01,821 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T16:56:13,864 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T16:56:25,410 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T16:56:25,410 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T16:56:27,118 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T16:56:30,024 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T16:56:30,132 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T16:56:40,013 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T16:56:40,148 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T16:56:50,792 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T16:56:50,889 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:00:46,759 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:00:55,724 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T17:00:55,725 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T17:00:57,412 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T17:00:59,061 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:00:59,061 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:00:59,061 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:00:59,200 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:00:59,201 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:01:42,305 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:01:47,847 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:01:47,848 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:01:47,848 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:01:52,590 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:01:52,591 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:03:08,432 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:03:12,771 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:03:12,771 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:03:12,771 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:03:12,772 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:03:14,462 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:03:14,573 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:03:14,575 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:03:20,893 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:03:20,895 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:03:20,896 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:03:20,896 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:03:21,059 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:03:21,061 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:03:21,061 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:05:30,494 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:05:34,999 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:05:34,999 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:05:35,000 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:05:35,000 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:05:36,610 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:05:36,739 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:05:36,739 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:08:02,321 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:08:07,588 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:08:07,588 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:08:07,589 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:08:07,589 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:08:09,146 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:08:09,241 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:08:09,242 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:08:21,234 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:08:21,235 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:08:21,235 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:08:21,235 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:08:21,393 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:08:21,393 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:08:21,403 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:09:29,634 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:09:33,652 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:09:33,652 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:09:33,653 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:09:33,653 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:09:35,246 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:09:35,377 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:09:35,378 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:10:03,305 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:10:03,306 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:10:03,309 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:10:03,309 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:10:03,445 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:10:03,445 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:10:03,478 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:10:27,655 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:10:32,413 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:10:32,413 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:10:32,413 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:10:32,414 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:10:34,007 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:10:34,126 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:10:34,127 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:10:53,410 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:10:57,704 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:10:57,704 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:10:57,704 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:10:57,705 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:10:59,350 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:10:59,455 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:10:59,455 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:21:27,477 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:21:42,700 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-25T17:21:42,700 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-25T17:21:44,439 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-25T17:21:49,476 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-25T17:21:49,478 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-25T17:21:49,478 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-25T17:21:49,478 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-25T17:21:49,659 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-25T17:21:49,703 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-25T17:21:49,704 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-25T17:22:51,323 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-25T17:23:26,895 * DEBUG br.com.proto.WebServer - Starting webserver

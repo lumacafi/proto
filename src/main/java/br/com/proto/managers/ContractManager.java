@@ -9,6 +9,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ContractManager {
 
@@ -16,8 +17,7 @@ public class ContractManager {
 
     PersistanceAdapter persistance = new PersistanceAdapter();
 
-    @SuppressWarnings("unchecked")
-    public <T> T create(final Client client, final Service service, final String startDate, final String endDate) {
+    public Contract create(final Client client, final Service service, final String startDate, final String endDate) {
         Contract contract = new Contract();
         contract.setClient(client);
         contract.setService(service);
@@ -30,20 +30,34 @@ public class ContractManager {
         if (!saved) {
             throw new IllegalStateException("Unable to save contract");
         }
-        return (T) contract;
+        return contract;
     }
 
 
-    public <T> T read(String id) {
+    public Contract read(String id) {
         if (id == null || id.isEmpty()) {
             throw new IllegalArgumentException("Invalid id");
         }
         return persistance.read(id, Contract.class);
     }
 
-    public <T> List<T> getList() {
+    public List<Contract> getList() {
         LOGGER.debug("Getting contract list");
         return persistance.getList(Contract.class);
+    }
+
+    public List<Contract> getListByClientId(final String clientId) {
+        if (clientId == null) {
+            throw new IllegalArgumentException("Invalid client id");
+        }
+        List<Contract> filteredList;
+        LOGGER.debug("Getting contract list by client id: ");
+        List<Contract> list = getList();
+        filteredList = list.stream()
+                .filter(contract -> contract.getClient().getId().equals(clientId))
+                .collect(Collectors.toList());
+        LOGGER.debug("Finished Getting contract list by client id: ");
+        return filteredList;
     }
 
     public boolean delete(Object object) {

@@ -49,7 +49,6 @@ public class ServiceManager {
             throw new IllegalStateException("Unable to save service");
         }
         return service;
-
     }
 
     public Service read(String id) {

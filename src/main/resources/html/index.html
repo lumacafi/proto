@@ -1,0 +1,21 @@
+<html>
+<body>
+<p><a href="clientreg.html">Cadastrar clientes</a></p>
+<p><a href="servicereg.html">Cadastrar servi&ccedil;os</a></p>
+
+
+<div class="table1"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$.getJSON("http://localhost:8080/api/clientlist").then(function(data)
+{
+    for (var i = 0; i < data.length; i++) {
+        $(".table1").append("<a href='clientdetails.html?clid="+data[i].id+"'>"+data[i].name+"</a></p>");
+    }
+});
+</script>
+
+</body>
+</html>
