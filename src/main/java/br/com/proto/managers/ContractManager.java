@@ -17,6 +17,38 @@ public class ContractManager {
 
     PersistanceAdapter persistance = new PersistanceAdapter();
 
+
+    public double getCalculatedContractValue(final String clientId, final String serviceId, final String startDate, final String endDate) {
+        Contract contract = new Contract();
+        ClientManager clientManager = new ClientManager();
+        ServiceManager serviceManager = new ServiceManager();
+        contract.setClient(clientManager.read(clientId));
+        contract.setService(serviceManager.read(serviceId));
+        contract.setStartDate(startDate);
+        contract.setEndDate(endDate);
+        double cval = calculateContractValue(contract);
+        contract.setValue(cval);
+        return contract.getValue();
+    }
+
+    public Contract create(final String clientId, final String serviceId, final String startDate, final String endDate) {
+        Contract contract = new Contract();
+        ClientManager clientManager = new ClientManager();
+        ServiceManager serviceManager = new ServiceManager();
+        contract.setClient(clientManager.read(clientId));
+        contract.setService(serviceManager.read(serviceId));
+        contract.setStartDate(startDate);
+        contract.setEndDate(endDate);
+        double cval = calculateContractValue(contract);
+        contract.setValue(cval);
+        boolean saved = persistance.save(contract);
+        if (!saved) {
+            throw new IllegalStateException("Unable to save contract");
+        }
+        return contract;
+
+    }
+
     public Contract create(final Client client, final Service service, final String startDate, final String endDate) {
         Contract contract = new Contract();
         contract.setClient(client);

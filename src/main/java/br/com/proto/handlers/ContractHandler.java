@@ -5,6 +5,7 @@ import br.com.proto.managers.ContractManager;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
+import java.net.URI;
 import java.util.List;
 
 @Path("contract")
@@ -28,7 +29,27 @@ public class ContractHandler {
 
 
     @POST
-    public Response doAdd(@FormParam("clid") final String clientId) {
-        return null;
+    public Response doPost(
+            @FormParam("clid") final String clientId,
+            @FormParam("startdate") final String startDate,
+            @FormParam("enddate") final String endDate,
+            @FormParam("service") final String serviceId,
+            @FormParam("val") final String value) {
+
+
+        if (value == null) {
+            double calculatedContractValue = contractManager.getCalculatedContractValue(clientId, serviceId, startDate, endDate);
+            return Response.seeOther(URI.create("/contractreg.html?clid=" + clientId + "&val=" + calculatedContractValue)).build();
+        } else {
+            Contract contract = contractManager.create(clientId, serviceId, startDate, endDate);
+            if (contract != null) {
+                return Response.seeOther(URI.create("/contractreg-sucess.html")).build();
+            } else {
+                return Response.seeOther(URI.create("/contractreg-error.html")).build();
+            }
+
+        }
+
     }
+
 }

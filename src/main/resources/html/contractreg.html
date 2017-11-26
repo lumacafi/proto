@@ -1,25 +1,62 @@
 <html>
 <body>
-<form action="/api/contract" method="post">
 
 
-    <input type="hidden" name="clid" value="x"/>
 
-    <p>Servi&ccedil;o: <select name="service">
+<form action="/api/contract" method="post" class="fc">
+
+    <p>Servi&ccedil;o: <select name="service" class="slist">
 
     </select></p>
 
-    <p>Data de inicio: <input type="text" name="startdate"></p>
-    <p>Data de fim: <input type="text" name="enddate"></p>
+    <p>Data de inicio: <input name="startdate"></p>
+    <p>Data de fim: <input name="enddate"></p>
+    <p class="vbox"></p>
 
-    <p>Valor: <input type="text" name="value"></p>
-
-    <p><input type="submit"></p>
-
+    <p></p>
+    <p class="subbutton"></p>
 
 </form>
 
 
 <p><a href="/index.html">Home</a></p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return decodeURI(results[1]) || 0;
+    }
+};
+
+$(".fc").append("<input type='hidden' name='clid' value='"+$.urlParam('clid')+"'/>");
+
+var val = $.urlParam('val');
+
+if( val !== null){
+    $(".subbutton").replaceWith("<input type='submit' value='Criar contrato'>");
+    $(".vbox").replaceWith("Valor: <input name='val' value='"+val+"' readonly>");
+}
+else
+{
+    $(".subbutton").replaceWith("<input type='submit' value='Calcular valor'>");
+
+};
+
+
+
+$.getJSON("http://localhost:8080/api/services").then(function(data)
+{
+    for (var i = 0; i < data.length; i++) {
+        $(".slist").append("<option value='"+data[i].id+"'>"+data[i].name+"</option>");
+    }
+});
+</script>
+
 </body>
 </html>

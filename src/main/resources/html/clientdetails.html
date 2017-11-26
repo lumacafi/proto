@@ -5,7 +5,7 @@
 <p>Cliente: </p>
 <div class="table1"></div>
 
-<p><a href="contractreg.html">Contratar serviço</a></p>
+<p><div class="contractlink"></div></p>
 
 <p>Contratos</p>
 <div class="table2"></div>
@@ -28,6 +28,7 @@ $.urlParam = function(name){
 $.getJSON("http://localhost:8080/api/clients/"+$.urlParam('clid')).then(function(data)
 {
     $(".table1").append(data.name+"<br>");
+    $(".contractlink").append("<a href='contractreg.html?clid="+$.urlParam('clid')+"'>Contratar serviço</a>");
 });
 
 
