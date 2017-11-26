@@ -13,9 +13,29 @@ import java.util.List;
 public class Launcher {
 
     public static void main(String[] args) {
-//        ClientManager clientManager = new ClientManager();
-//        ServiceManager serviceManager = new ServiceManager();
-//        ContractManager contractManager = new ContractManager();
+        ClientManager clientManager = new ClientManager();
+        ServiceManager serviceManager = new ServiceManager();
+        ContractManager contractManager = new ContractManager();
+
+
+//        List<Contract> list = contractManager.getList();
+//        for (Contract contract : list) {
+//            contractManager.delete(contract);
+//        }
+
+
+//        List<Service> list = serviceManager.getList();
+//        for (Service service : list) {
+//            serviceManager.delete(service);
+//        }
+
+
+//        List<Client> list = clientManager.getList();
+//        for (Client client : list) {
+//            clientManager.delete(client);
+//
+//        }
+
 //
 //
 //
@@ -28,6 +48,8 @@ public class Launcher {
 //
 //        System.out.println(service.getValue());
 //        System.out.println(contract.getValue());
+
+
 
 
         WebServer.start();

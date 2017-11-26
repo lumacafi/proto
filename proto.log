@@ -851,3 +851,121 @@
 2017-11-26T19:42:07,172 * DEBUG br.com.proto.managers.ContractManager - Finished calculating contract discount value
 2017-11-26T19:42:07,172 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Contract
 2017-11-26T19:42:07,292 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Contract
+2017-11-26T19:51:18,010 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-26T19:51:18,016 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-26T19:51:19,815 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-26T19:51:19,815 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Contract
+2017-11-26T19:51:19,974 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Contract
+2017-11-26T19:51:19,975 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Contract
+2017-11-26T19:52:55,583 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-26T19:52:55,590 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-26T19:52:57,353 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-26T19:52:57,353 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Service
+2017-11-26T19:54:06,211 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-26T19:54:06,217 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-26T19:54:07,963 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-26T19:54:07,963 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Contract
+2017-11-26T19:54:08,114 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Contract
+2017-11-26T19:54:08,114 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Contract
+2017-11-26T19:54:08,231 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Contract
+2017-11-26T19:54:08,232 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Contract
+2017-11-26T19:54:08,360 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Contract
+2017-11-26T19:54:08,361 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Contract
+2017-11-26T19:54:08,474 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Contract
+2017-11-26T19:54:20,587 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-26T19:54:20,592 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-26T19:54:22,313 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-26T19:54:22,313 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Service
+2017-11-26T19:54:22,478 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Service
+2017-11-26T19:54:22,478 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Service
+2017-11-26T19:54:22,583 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Service
+2017-11-26T19:54:22,583 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Service
+2017-11-26T19:54:22,688 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Service
+2017-11-26T19:54:53,369 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-26T19:54:53,376 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-26T19:54:55,105 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-26T19:54:55,105 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,257 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,257 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,363 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,364 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,459 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,459 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,556 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,556 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,657 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,657 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,769 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,769 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,859 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,859 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:55,943 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:55,943 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,021 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,021 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,091 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,091 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,346 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,347 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,432 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,432 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,512 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,512 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,599 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,599 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,703 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,703 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,790 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:54:56,790 * DEBUG br.com.proto.persistance.PersistanceAdapter - Deleting Client
+2017-11-26T19:54:56,868 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished deleting Client
+2017-11-26T19:55:10,437 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-26T19:55:18,516 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-26T19:55:18,517 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-26T19:55:20,131 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-26T19:55:31,055 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Client
+2017-11-26T19:55:31,209 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Client
+2017-11-26T19:55:33,320 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-26T19:55:33,320 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-26T19:55:33,454 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-26T19:55:37,546 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-26T19:55:37,546 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-26T19:55:37,547 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-26T19:55:37,547 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-26T19:55:37,669 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-26T19:55:37,694 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-26T19:55:37,695 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-26T19:55:42,630 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-26T19:55:42,630 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-26T19:55:42,708 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-26T19:55:46,106 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-26T19:55:46,107 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-26T19:55:46,187 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-26T20:03:25,054 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-26T20:04:08,086 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-26T20:04:30,468 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Service
+2017-11-26T20:04:32,024 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Service
+2017-11-26T20:04:54,993 * DEBUG br.com.proto.WebServer - Starting webserver
+2017-11-26T20:05:09,942 * DEBUG br.com.proto.persistance.PersistanceAdapter - Saving Service
+2017-11-26T20:05:11,625 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished saving Service
+2017-11-26T20:05:13,785 * DEBUG br.com.proto.managers.ClientManager - Getting client list
+2017-11-26T20:05:13,785 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Client list
+2017-11-26T20:05:14,021 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Client list
+2017-11-26T20:05:15,943 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-26T20:05:15,943 * DEBUG br.com.proto.managers.ContractManager - Getting contract list by client id: 
+2017-11-26T20:05:15,943 * DEBUG br.com.proto.managers.ContractManager - Getting contract list
+2017-11-26T20:05:15,944 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Contract list
+2017-11-26T20:05:16,098 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Contract list
+2017-11-26T20:05:16,099 * DEBUG br.com.proto.managers.ContractManager - Finished Getting contract list by client id: 
+2017-11-26T20:05:16,129 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-26T20:05:17,699 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-26T20:05:17,700 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-26T20:05:17,801 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list
+2017-11-26T20:05:25,021 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Client
+2017-11-26T20:05:25,097 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Client
+2017-11-26T20:05:25,098 * DEBUG br.com.proto.persistance.PersistanceAdapter - Reading Service
+2017-11-26T20:05:25,169 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished Reading Service
+2017-11-26T20:05:25,169 * DEBUG br.com.proto.managers.ContractManager - Calculating contract discount value
+2017-11-26T20:05:25,170 * DEBUG br.com.proto.managers.ContractManager - Finished calculating contract discount value
+2017-11-26T20:05:25,252 * DEBUG br.com.proto.managers.ServiceManager - Getting service list
+2017-11-26T20:05:25,252 * DEBUG br.com.proto.persistance.PersistanceAdapter - Getting Service list
+2017-11-26T20:05:25,346 * DEBUG br.com.proto.persistance.PersistanceAdapter - Finished getting Service list

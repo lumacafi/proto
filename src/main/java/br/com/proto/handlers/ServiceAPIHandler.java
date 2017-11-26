@@ -19,22 +19,6 @@ public class ServiceAPIHandler {
         return serviceManager.getList();
     }
 
-
-//    @GET
-//    @Produces(MediaType.TEXT_HTML)
-//    public String getHTML() {
-//
-//        StringBuilder html = new StringBuilder();
-//        html.append("<html>");
-//        for (Service service : serviceManager.getList()) {
-//            html.append(service.getName());
-//            html.append("<br>");
-//        }
-//
-//        html.append("</html>");
-//        return html.toString();
-//    }
-
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{id}")

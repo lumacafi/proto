@@ -15,10 +15,10 @@ public class Contract {
     private String id;
 
 
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
     private Client client;
 
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
     private Service service;
 
     private String startDate;
