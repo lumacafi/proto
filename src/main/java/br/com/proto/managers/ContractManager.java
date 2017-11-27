@@ -8,6 +8,11 @@ import br.com.proto.persistance.PersistanceAdapter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -18,7 +23,7 @@ public class ContractManager {
     PersistanceAdapter persistance = new PersistanceAdapter();
 
 
-    public double getCalculatedContractValue(final String clientId, final String serviceId, final String startDate, final String endDate) {
+    public double getCalculatedContractValue(final String clientId, final String serviceId, final Date startDate, final Date endDate) {
         Contract contract = new Contract();
         ClientManager clientManager = new ClientManager();
         ServiceManager serviceManager = new ServiceManager();
@@ -31,25 +36,23 @@ public class ContractManager {
         return contract.getValue();
     }
 
-    public Contract create(final String clientId, final String serviceId, final String startDate, final String endDate) {
-        Contract contract = new Contract();
+    public Contract create(final String clientId, final String serviceId, final Date startDate, final Date endDate) {
+        if (serviceId == null) {
+            throw new IllegalArgumentException("Invalid service id");
+        }
+
+        if (clientId == null) {
+            throw new IllegalArgumentException("Invalid client id");
+        }
+
         ClientManager clientManager = new ClientManager();
         ServiceManager serviceManager = new ServiceManager();
-        contract.setClient(clientManager.read(clientId));
-        contract.setService(serviceManager.read(serviceId));
-        contract.setStartDate(startDate);
-        contract.setEndDate(endDate);
-        double cval = calculateContractValue(contract);
-        contract.setValue(cval);
-        boolean saved = persistance.save(contract);
-        if (!saved) {
-            throw new IllegalStateException("Unable to save contract");
-        }
-        return contract;
-
+        Client client = clientManager.read(clientId);
+        Service service = serviceManager.read(serviceId);
+        return create(client, service, startDate, endDate);
     }
 
-    public Contract create(final Client client, final Service service, final String startDate, final String endDate) {
+    public Contract create(final Client client, final Service service, final Date startDate, final Date endDate) {
         Contract contract = new Contract();
         contract.setClient(client);
         contract.setService(service);
@@ -57,12 +60,23 @@ public class ContractManager {
         contract.setEndDate(endDate);
         double cval = calculateContractValue(contract);
         contract.setValue(cval);
-
+        int remaining = calculateRemainingDays(endDate);
+        contract.setDaysRemaining(remaining);
         boolean saved = persistance.save(contract);
         if (!saved) {
             throw new IllegalStateException("Unable to save contract");
         }
         return contract;
+    }
+
+    private int calculateRemainingDays(Date endDate) {
+        if (endDate == null) {
+            throw new IllegalArgumentException("Invalid date");
+        }
+
+        LocalDate endLocalDate = Instant.ofEpochMilli(endDate.getTime()).atZone(ZoneId.systemDefault()).toLocalDate();
+        long days = ChronoUnit.DAYS.between(LocalDate.now(), endLocalDate);
+        return (int) days;
     }
 
 
@@ -103,7 +117,7 @@ public class ContractManager {
         if (id == null || id.isEmpty()) {
             throw new IllegalArgumentException("Invalid id");
         }
-        Contract contract= read(id);
+        Contract contract = read(id);
         return delete(contract);
 
     }

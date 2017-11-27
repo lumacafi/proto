@@ -28,14 +28,14 @@ $.urlParam = function(name){
 $.getJSON("http://localhost:8080/api/clients/"+$.urlParam('clid')).then(function(data)
 {
     $(".table1").append(data.name+"<br>");
-    $(".contractlink").append("<a href='contractreg.html?clid="+$.urlParam('clid')+"'>Contratar serviço</a>");
+    $(".contractlink").append("<a href='contractreg.html?clid="+$.urlParam('clid')+"'>Contratar servi&ccedil;o</a>");
 });
 
 
 $.getJSON("http://localhost:8080/api/contract?clid="+$.urlParam('clid')).then(function(data)
 {
     for (var i = 0; i < data.length; i++) {
-        $(".table2").append(data[i].id+"<br>");
+        $(".table2").append(data[i].service.name+" -> "+data[i].daysRemaining+" dias<br>");
     }
 });
 

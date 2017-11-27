@@ -9,8 +9,8 @@
 
     </select></p>
 
-    <p>Data de inicio: <input name="startdate"></p>
-    <p>Data de fim: <input name="enddate"></p>
+    <p class="sdate">Data de inicio: <input name="startdate"></p>
+    <p class="edate">Data de fim: <input name="enddate"></p>
     <p class="vbox"></p>
 
     <p></p>
@@ -48,6 +48,13 @@ else
 
 };
 
+if ($.urlParam('sdate')){
+    $(".sdate").replaceWith("<p>Data de inicio: <input name='startdate' value='"+$.urlParam('sdate')+"' readonly></p>");
+};
+
+if ($.urlParam('edate')){
+    $(".edate").replaceWith("<p>Data de fim: <input name='enddate' value='"+$.urlParam('edate')+"' readonly></p>");
+};
 
 
 $.getJSON("http://localhost:8080/api/services").then(function(data)
